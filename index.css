@@ -1,0 +1,125 @@
+body{
+    background-color:white;
+}
+.whole{
+    width: 85%;
+    margin:auto;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex:1;
+    align-items: center;
+    margin: 15px 18px;    
+    background-color:white;
+    font-size: 56px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  
+}
+
+.header_button button{
+    border-radius: 25px;
+    border:none;
+    padding: 15px 28px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(254, 216, 0);
+    display: inline-block;
+    text-align: center;
+}
+.header_button button:hover{
+    background-color:rgba(9, 107, 140, 0.751);
+    color: white;
+    
+}
+
+.button1{
+    background-color: rgba(248,250,251,255) !important;
+    border: 50px !important;
+}
+.button1:hover{
+    background-color: black !important;
+}
+
+.body_content{
+    display: flex;
+    justify-content: space-between;
+}
+.body_img{
+    height: 650px;
+    width:650px;
+    margin-left:100px ;
+    
+}
+.text{
+    align-items: center;
+    margin-top: 200px;
+}
+
+.text label{
+    align-items: center;
+    font-size: 100px;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(32, 103, 103);
+    
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: auto;
+
+}
+
+.label1{
+   
+    align-items: center;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(32, 103, 103);    
+}
+.about_p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_des,.contact_email{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label2{
+    align-items: center;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(32, 103, 103);   
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 400;
+}
+/* 
+img{
+    height: 20px !important; 
+    width: 20px !important;   
+} */
